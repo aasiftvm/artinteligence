@@ -1,0 +1,10 @@
+body{
+  background-color: #DAF7A6;
+}
+th, td{
+  font-family: Monospace;
+  border: solid 1px white;
+}
+h1{
+  text-align: center;
+}
