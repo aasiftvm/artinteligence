@@ -1,0 +1,145 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1{
+  margin-left: 20px;
+}
+body {
+  
+  background-color: #002544;
+  color: #ECF6FF;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+a {
+  color: #E46305;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.simple {
+  max-width: 100px;
+  
+}
+/* app.css */
+.logobox {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 10px; /* Adjust the margin as needed for spacing */
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+}
+/* Add this to your existing CSS styles */
+#password-container {
+  text-align: center;
+  margin-top: 20vh;
+  max-width: 400px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  border: 1px solid #ccc; /* Border for the container */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #fff; /* Background color for the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #E46305; /* Match the color scheme */
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  font-size: 14px;
+  width: 100%;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Border for the input field */
+  border-radius: 4px; /* Rounded corners for the input field */
+}
+
+button {
+  background-color: #E46305;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px; /* Rounded corners for the button */
+}
+
+button:hover {
+  background-color: #BF5205; /* Darker color on hover */
+}
+#content {
+  display: none;
+}
+
+
+.dropdown-remark {
+  cursor: pointer;
+  text-align: center;
+  color: #E46305; /* Match the color scheme */
+}
+
+.dropdown-remark span {
+  padding: 5px;
+  border: 1px solid #E46305; /* Match the color scheme */
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.dropdown-remark:hover span {
+  background-color: #E46305; /* Match the color scheme */
+  color: #fff; /* Text color when hovered */
+}
+
+/* Add this to your existing CSS styles */
+.description-row iframe {
+  width: 100%; /* Make the video responsive to its container */
+  max-width: 560px; /* Set a maximum width to prevent distortion */
+  height: auto; /* Allow the height to adjust proportionally */
+  display: block; /* Ensure proper spacing and alignment */
+  margin: 10px 0; /* Add margin for spacing around the video */
+}
