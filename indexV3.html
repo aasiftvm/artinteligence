@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="app.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>artintelligence</title>
+  </head>
+<body>
+
+  <!-- Add a password container -->
+  <div id="password-container">
+    <label for="password">Enter Password: </label>
+    <input type="password" id="password">
+    <button onclick="checkPassword()">Submit</button>
+  </div>
+
+  <!-- Your existing content -->
+  <div id="content" style="display:none;">
+  
+  <div class="container">
+ <h1>AI Tools</h1>
+ <table>
+   <thead>
+     <tr>
+       <th>Sl. No.</th>
+       <th>Name</th>
+       <th>Use</th>
+       <th></th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+  <td>1</td>
+  <td><div class="logobox"><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/768px-ChatGPT_logo.svg.png" alt=""><a href="https://chat.openai.com/">Chatgpt</a></div></td>
+  <td>Text generation</td>
+  <td class="dropdown-remark" onclick="toggleDescription(1)"><span>More Information ▼</span></td>
+</tr>
+<tr class="description-row" id="description-1" style="display: none;">
+  <td></td> <!-- Exclude the serial number column -->
+  <td colspan="3">
+    <ul>
+      <li>Natural Language Understanding</li>
+      <li>Content Generation</li>
+      <li>Code Assistance</li>
+      <li>Language Translation</li>
+    </ul>
+    ChatGPT is a powerful language model developed by OpenAI, based on the GPT-3.5 architecture. 
+    It stands out for its versatility in handling a wide range of natural language processing tasks. 
+    The model can provide detailed and contextually relevant responses in various domains, showcasing its 
+    proficiency in understanding and generating human-like text. With its fine-tuned capabilities, 
+    ChatGPT has found applications in chatbots, content creation, code generation, and language translation. 
+    Its adaptability and intuitive language understanding make it a valuable tool for developers, writers, 
+    and anyone seeking advanced language processing capabilities.
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dUjWMdR_Kw8" frameborder="0" allowfullscreen loading="lazy"></iframe>
+   </td>
+  </tr>
+  
+  <tr>
+    <td>2</td>
+    <td><div class="logobox"><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Google_Bard_logo.svg/2048px-Google_Bard_logo.svg.png" alt=""><a href="https://bard.google.com">Bard</a></div></td>
+    <td>Text generation</td>
+    <td class="dropdown-remark" onclick="toggleDescription(2)"><span>More Information ▼</span></td>
+  </tr>
+  <tr class="description-row" id="description-2" style="display: none;">
+    <td></td> <!-- Exclude the serial number column -->
+    <td colspan="3">
+      <ul>
+        <li>Conversational AI</li>
+        <li>Search Enhancement.</li>
+        <li>Multilingual Support</li>
+        <li>Code Assistance and Logic Capabilities</li>
+
+      </ul>
+      Bard, developed by Google, emerged as a response to the popularity of OpenAI's ChatGPT. Launched in March 2023, Bard leverages the LaMDA and later PaLM models, showcasing Google's commitment to advancing conversational AI. Initially met with mixed reviews, Bard integrates with Google Search to provide users with a more interactive and context-aware search experience. The chatbot underwent significant updates, including the adoption of PaLM 2, expansion to 180 countries, and support for additional languages. Notable features include its integration with other Google products, assistance in coding with compatibility for over 20 programming languages, and the ability to debunk known conspiracy theories. Despite facing criticism and challenges during its launch, Bard continues to evolve with updates, reflecting Google's ongoing efforts to compete in the AI landscape.
+      <br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6tJVk3QDyo8" frameborder="0" allowfullscreen loading="lazy"></iframe>
+ 
+    </td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><div class="logobox"><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Bing_Fluent_Logo.svg/1200px-Bing_Fluent_Logo.svg.png" alt=""><a href="https://play.google.com/store/apps/details?id=com.microsoft.bing">Bing Chat</a></div></td>
+    <td>Text & Image generation</td>
+    <td class="dropdown-remark" onclick="toggleDescription(3)"><span>More Information ▼</span></td>
+  </tr>
+  <tr class="description-row" id="description-3" style="display: none;">
+    <td></td> <!-- Exclude the serial number column -->
+    <td colspan="3">
+      <ul>
+        <li>Versatile Content Generation</li>
+        <li>Information and Insights</li>
+        <li>Image Creation</li>
+        <li>Multilingual and Conversational Interface</li>
+        
+      </ul>
+      Microsoft Copilot, initially introduced as Bing Chat, leverages the GPT-4 foundational model, fine-tuned using supervised and reinforcement learning techniques. It offers a versatile range of capabilities, including content generation, information retrieval, and image creation. Unlike many chatbots, Copilot can cite sources, ensuring transparency in its responses. The chatbot's conversational interface closely resembles that of ChatGPT, and it supports major languages and dialects. Copilot is integrated into Microsoft's broader initiative towards generative AI, with plans for specialized chatbots in various Microsoft products.
+
+      Despite its potential benefits, concerns have been raised about hallucinations and potential biases in Copilot. However, experts believe it could revolutionize user workflows and collaboration within Microsoft environments. The tool is continuously evolving, with plans to integrate it into Windows 11, emphasizing its expanding accessibility and impact on user productivity.
+      
+      As part of Microsoft's initiative, Copilot is positioned to play a crucial role in Microsoft 365 applications and services, Edge, Bing, and Windows. It offers seamless voice control and assistance in Windows, enhancing user interaction. The Copilot for Microsoft 365 extends its capabilities to Word, Excel, PowerPoint, Outlook, Teams, OneNote, Viva Learning, and more, providing users with a comprehensive tool for various tasks.
+            <br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_3" frameborder="0" allowfullscreen loading="lazy"></iframe>
+     
+    </td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td><div class="logobox"><img class="logo" src="https://res.cloudinary.com/apideck/image/upload/w_196,f_auto/v1675531888/marketplaces/ckhg56iu1mkpc0b66vj7fsj3o/listings/anthropic-logo_fb47aaa7-9725-42fb-9aeb-889c99cdccf0_r4xcuu.png" alt=""><a href="https://claude.ai/chat">Claude</a></div></td>
+    <td>Text generation <br>Pdf upload</td>
+    <td class="dropdown-remark" onclick="toggleDescription(4)"><span>More Information ▼</span></td>
+  </tr>
+  <tr class="description-row" id="description-4" style="display: none;">
+    <td></td> <!-- Exclude the serial number column -->
+    <td colspan="3">
+      <ul>
+        <li>Founded by ex-OpenAI members</li>
+        <li>Operates as a public-benefit corporation</li>
+        <li>Raised a substantial US$1.5 billion in funding</li>
+
+      </ul>
+      Anthropic's AI chatbot, Claude, crafted by former OpenAI researchers, offers an innovative conversational experience. Available globally through its website, Claude 2, launched in July 2023, prioritizes user safety. Built on "Constitutional AI" principles, it aligns with ethical standards, deriving inspiration from foundational documents like the 1948 Universal Declaration of Human Rights and Apple’s terms of service. With a unique gender-neutral approach and a commitment to transparency, Claude stands as a significant advancement in the realm of AI-powered conversation.
+            <br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ClrLJPsBJ9E" frameborder="0" allowfullscreen loading="lazy"></iframe>
+    
+    </td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td><a href="https://simplified.com/"><img class="simple" src="https://lp.simplified.com/607f32d6309ca31d63c6724d/641ad20290cc7201c8b804f5_simlified-logo.svg" alt="simple"></a></td>
+    <td>Text generation</td>
+    <td class="dropdown-remark" onclick="toggleDescription(5)"><span>More Information ▼</span></td>
+  </tr>
+  <tr class="description-row" id="description-5" style="display: none;">
+    <td></td> <!-- Exclude the serial number column -->
+    <td colspan="3">
+      <ul>
+        <li>Customize Your Tone</li>
+        <li>Long Form Write</li>
+        <li>Content Calendar</li>
+
+      </ul>
+
+      Generate 50+ types of copy in seconds with the AI Writer. Write unique & plagiarism-free content for blogs, articles, ads, products, websites & social media.      <br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_5" frameborder="0" allowfullscreen loading="lazy"></iframe>
+    </td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td><a href="https://writesonic.com/"><img class="simple"src="https://d1q5p2nadm4152.cloudfront.net/public/images/logo.svg" alt="simple"></a></td>
+    <td>Text generation</td>
+    <td class="dropdown-remark" onclick="toggleDescription(6)"><span>More Information ▼</span></td>
+  </tr>
+  <tr class="description-row" id="description-6" style="display: none;">
+    <td></td> <!-- Exclude the serial number column -->
+    <td colspan="3">
+      WriteSonic is a text generation tool known for its efficiency and ease of use.
+      <ul>
+        <li>Employs advanced algorithms for text generation.</li>
+        <li>Provides a user-friendly platform for creating content effortlessly.</li>
+      </ul>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_6" frameborder="0" allowfullscreen loading="lazy"></iframe>
+    </td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td><a class="simple" href="https://www.copy.ai/"><img style="filter:invert(50%)" class="simple" src="https://assets-global.website-files.com/628288c5cd3e8411b90a36a4/650ddf70a63d48ef028a06de_copyai-logo-2023.svg" alt="simple"></a></td>
+    <td>Text generation</td>
+    <td class="dropdown-remark" onclick="toggleDescription(7)"><span>More Information ▼</span></td>
+  </tr>
+  <tr class="description-row" id="description-7" style="display: none;">
+    <td></td> <!-- Exclude the serial number column -->
+    <td colspan="3">
+      Copy.ai is a text generation tool with a focus on providing powerful content creation capabilities.
+      <ul>
+        <li>Utilizes innovative technology for text generation.</li>
+        <li>Offers a range of features for efficient and creative content creation.</li>
+      </ul>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_7" frameborder="0" allowfullscreen loading="lazy"></iframe>
+    </td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td><a href="https://www.summarize.tech/">Summarize</a></td>
+    <td>Text generation</td>
+    <td class="dropdown-remark" onclick="toggleDescription(8)"><span>More Information ▼</span></td>
+  </tr>
+  <tr class="description-row" id="description-8" style="display: none;">
+    <td></td> <!-- Exclude the serial number column -->
+    <td colspan="3">
+      Summarize is a text generation tool specializing in summarizing content, including YouTube videos.
+      <ul>
+        <li>Offers advanced text summarization capabilities.</li>
+        <li>Summarizes YouTube videos for quick information retrieval.</li>
+      </ul>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID_8" frameborder="0" allowfullscreen loading="lazy"></iframe>
+    </td>
+  </tr>
+      <tr>
+      <td>9</td>
+      <td><div class="logobox"><img class="logo"src="https://www.chatpdf.com/favicon-2.png" alt=""><a href="https://www.chatpdf.com/">Chat Pdf</a></div></td>
+      <td>Text generation</td>
+      <td>&#10003 Pdf upload</td>
+     </tr>
+     
+     
+     <tr>
+      <td>10</td>
+      <td><div class="logobox"><img class="logo" src="https://stablediffusionweb.com/logo.png" alt=""><a href="https://stablediffusionweb.com">Stable Diffusion</a></div></td>
+      <td>Image generation</td>
+      <td></td>
+     </tr>
+     <tr>
+      <td>11</td>
+      <td><a href="https://stability.ai"><img class="simple"src="https://images.squarespace-cdn.com/content/v1/6213c340453c3f502425776e/330e6487-af90-43c8-a255-63b3440d0e34/StabilityAi_Logo_White-19.png" alt="simple"></a></td>
+      <td>Image generation</td>
+      <td></td>
+     </tr>
+       <tr>
+      <td>12</td>
+      <td><a href="https://ideogram.ai/">Ideogram AI</a></td>
+      <td>Image generation</td>
+      <td></td>
+     </tr>
+     <tr>
+      <td>13</td>
+      <td><a href="https://www.canva.com/"></a><img src="https://static.canva.com/web/images/12487a1e0770d29351bd4ce4f87ec8fe.svg" alt="simple"></a></td>
+      <td>Design and Image editing</td>
+      <td></td>
+     </tr>
+      <tr>
+      <td>14</td>
+      <td><div class="logobox"><img class="logo"src="https://www.ecml.at/Portals/1/ICT-REV%20Training%20and%20Consultancy/ICT-REV%20Inventory/Logos%20Tools/Narakeet.png" alt=""><a href="https://www.narakeet.com/">Narakeet</a></div></td>
+      <td>Audio generation</td>
+      <td></td>
+     </tr>
+     <tr>
+      <td>15</td>
+      <td><div class="logobox"><img class="logo"src="https://runwayml.com/images/logo-square.png" alt=""><a href="https://app.runwayml.com">Runway</a></div></td>
+      <td>Video generation</td>
+      <td></td>
+     </tr>
+    
+     <tr>
+      <td>16</td>
+      <td><a href="https://www.heygen.com"><img style="filter:invert(50%)" class="simple"src="https://assets-global.website-files.com/63fdcbe48aa020c0a5493507/649e4c3d5f0708ca6cd80bba_logoHorizonalLight.svg" alt="simple"></a></td>
+      <td>Video generation</td>
+      <td></td>
+     </tr>
+      <tr>
+      <td>17</td>
+      <td><div class="logobox"><img style="filter:invert(90%)"class="logo"src="https://www.d-id.com/wp-content/uploads/2023/02/logo.svg" alt=""><a href="https://www.d-id.com/">D-ID</a></div></td>
+      <td>Video generation</td>
+      <td></td>
+     </tr>
+    
+     <tr>
+      <td>18</td>
+      <td><div class="logobox"><img class="logo"src="https://neveragain.allstatics.com/2019/assets/icon/logo/anieraser-square.svg" alt="Anieraser Logo"><a href="https://anieraser.media.io/">Anieraser</a></div></td>
+      <td>Watermark Remover</td>
+      <td></td>
+     </tr>
+     
+   
+     
+     <tr>
+      <td>19</td>
+      <td><a href="https://gptzero.me/">GPTZero</a></td>
+      <td>AI Detection</td>
+      <td></td>
+     </tr>
+     <tr>
+      <td>20</td>
+      <td><div class="logobox"><img class="logo" src="https://copyleaks.com/wp-content/uploads/2023/01/logom.png" alt=""><a href="https://copyleaks.com/">Copyleaks</a></div></td>
+      <td>AI Detection</td>
+      <td></td>
+     </tr>
+     <tr>
+      <td>21</td>
+      <td><a href="https://quillbot.com/"><img class="simple"src="https://assets.quillbot.com/images/og_quillbot.png" alt="simple"></a></td>
+      <td>Paraphrasing tool</td>
+      <td></td>
+     </tr>
+     <tr>
+      <td>22</td>
+      <td><a href="https://smallseotools.com/"><img class="simple"src="https://smallseotools.com/webimages/logo.svg" alt="simple"></a></td>
+      <td>Paraphrasing tool</td>
+      <td></td>
+     </tr>
+   </tbody>
+ </table>
+ </div>
+    <!-- Your content goes here -->
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
